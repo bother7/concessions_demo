@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+new_stadium = Stadium.create(name: "Lincoln Financial")
+Game.create(title: "Eagles vs. Rams", date: Time.now, stadium: new_stadium)

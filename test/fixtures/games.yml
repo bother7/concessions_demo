@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 
+  title: MyString
+  food: false
+  drinks: false
+  snacks: false
+  alcohol: false
+
+two:
+  date: 
+  title: MyString
+  food: false
+  drinks: false
+  snacks: false
+  alcohol: false
