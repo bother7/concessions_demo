@@ -6,7 +6,9 @@
   <thead>
     <tr>
       <th>Date</th>
-      <th>Title</th>
+      <th>Start Time</th>
+      <th>Name</th>
+      <th>Current Quarter</th>
       <th>Food</th>
       <th>Drinks</th>
       <th>Snacks</th>
@@ -19,7 +21,9 @@
     <% @games.each do |game| %>
       <tr>
         <td><%= game.date %></td>
-        <td><%= game.title %></td>
+        <td><%= game.start_time %></td>
+        <td><%= game.name %></td>
+        <td><%= game.current_period %></td>
         <td><%= game.food %></td>
         <td><%= game.drinks %></td>
         <td><%= game.snacks %></td>

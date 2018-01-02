@@ -1,8 +1,10 @@
 class CreateGames < ActiveRecord::Migration[5.1]
   def change
     create_table :games do |t|
-      t.datetime :date
-      t.string :title
+      t.string :date
+      t.string :start_time
+      t.string :name
+      t.string :current_period
       t.boolean :food, :default => true
       t.boolean :drinks, :default => true
       t.boolean :snacks, :default => true

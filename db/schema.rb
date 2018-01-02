@@ -16,8 +16,10 @@ ActiveRecord::Schema.define(version: 20180102190029) do
   enable_extension "plpgsql"
 
   create_table "games", force: :cascade do |t|
-    t.datetime "date"
-    t.string "title"
+    t.string "date"
+    t.string "start_time"
+    t.string "name"
+    t.string "current_period"
     t.boolean "food", default: true
     t.boolean "drinks", default: true
     t.boolean "snacks", default: true
