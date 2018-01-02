@@ -1,24 +1,13 @@
-# README
+Quick demo for potential automation of concessions during an NBA game
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The app scrapes the nba api for game information and current quarter. The alcohol category automatically flips to false when the quarter has reached 4 or the game has finished.
 
-Things you may want to cover:
+The Welcome Page lists today's NBA games. 
 
-* Ruby version
+![alt text](https://raw.githubusercontent.com/bother7/concessions_demo/tree/master/app/assets/images/demo.png)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+git clone
+bundle install
+rails db:create
+rails db:migrate
+rails s
