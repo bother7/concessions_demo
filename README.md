@@ -4,7 +4,7 @@ The app scrapes the nba api for game information and current quarter. The alcoho
 
 The Welcome Page lists today's NBA games. 
 
-![alt text](https://raw.githubusercontent.com/bother7/concessions_demo/tree/master/app/assets/images/demo.png)
+![alt text](https://raw.githubusercontent.com/bother7/concessions_demo/master/app/assets/images/demo.png)
 
 git clone
 bundle install
