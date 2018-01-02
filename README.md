@@ -6,8 +6,8 @@ The Welcome Page lists today's NBA games.
 
 ![alt text](https://raw.githubusercontent.com/bother7/concessions_demo/master/app/assets/images/demo.png)
 
-git clone
-bundle install
-rails db:create
-rails db:migrate
-rails s
+git clone  
+bundle install  
+rails db:create  
+rails db:migrate  
+rails s  
